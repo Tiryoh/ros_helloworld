@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="ros_helloworld" name="talker" type="talker.py" required="true" />
+  <test pkg="ros_helloworld" test-name="test_talker" type="travis_test_talker.py" />
+</launch>
